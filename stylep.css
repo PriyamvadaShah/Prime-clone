@@ -1,0 +1,693 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-size: 18px;
+}
+
+.navbar{
+    height: 2.8rem;
+    background-color: black;
+    display:flex;
+    line-height:2.8rem;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 1rem;
+    width: 1.8rem;
+    margin-left:10rem;
+}
+
+.image{
+    height:1.1rem;
+    width: 5.5rem;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.homebar{
+    display: flex;
+    margin-left:0rem;
+}
+
+.homebar a{
+    font-family: Helvetica;
+    color:#d3d3d3;
+    text-decoration:none;
+    margin-left: 1.8rem;
+}
+
+.dropdown{
+    color: #d3d3d3;
+    margin-left: 0.3rem;
+}
+
+.magnifyingglass{
+    color:#d3d3d3;
+    font-size: 1.3rem;
+    padding-top: 0.4rem;
+}
+
+.thirdnavigation{
+    display:flex;
+    margin-right: 10rem;
+}
+
+.thirdnavigation a{
+    text-decoration:none;
+    color:#d3d3d3;
+    font-family: Helvetica;
+    margin: 0.6rem;
+}
+
+.magright1{
+    display:flex;
+    margin-top: 0.38rem;
+}
+
+.user{
+    color:white;
+    color: linear-gradient(blue, white);
+    margin-top: 0.5rem;
+    margin-left:1.95rem;
+}
+
+.logo:hover, .user:hover, .magnifyingglass{
+    cursor:pointer;
+}
+
+.magright1 a{
+    margin-left: 2.7rem;
+    margin-top: 0.6px;
+    margin-right: 14px;
+}
+
+.dropdown2{
+    color:#d3d3d3;
+    margin-left: 0px;
+    margin-top: 0.4rem;
+}
+
+.magright2{
+    margin-left: 0.8rem;
+    margin-top: 0.45rem;
+    margin-right: 0.16rem;
+}
+
+.home1{
+    padding-left:0 px;
+}
+
+.welcometext{
+    font-size:1.2rem;
+    line-height:1.5rem;
+    padding-left: 2.5rem;
+    font-family: verdana;
+}
+
+.welcome{
+    padding-top: 1.2rem;
+    font-family: verdana;
+    padding-left: 2.5rem;
+    font-size: 2.35rem;
+    line-height: 5.3rem;
+}
+
+.firstcontent{
+    height: 28.5rem;
+    color: white;
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-size: cover;
+    font-weight: lighter;
+}
+
+.signin{
+    height: 2.8rem;
+    width: 15.1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#0f79af;
+    font-size: 1rem;
+    line-height: 2.8rem;
+    color: white;
+    font-weight:bold;
+    margin-left: 2.5rem;
+    margin-top: 0.6rem;
+    border-radius: 0.3rem;
+}
+
+.seccontent{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    color:white;
+    background-size:cover;
+    height: 28.5rem;
+}
+
+.movierentalstext{
+    font-size:1rem;
+    line-height:1.5rem;
+    padding-left: 2.5rem;
+    font-family: verdana;
+}
+
+.movierentals{
+    padding-top: 1.2rem;
+    font-family: verdana;
+    padding-left: 2.5rem;
+    font-size:2.35rem;
+    line-height: 5.3rem;
+}
+
+.rentbutton{
+    height: 2.8rem;
+    width: 15.1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#0f79af;
+    font-size: 1rem;
+    line-height: 2.8rem;
+    color: white;
+    font-weight:bold;
+    margin-left: 2.5rem;
+    margin-top: 2.7rem;
+    border-radius: 0.3rem;
+}
+
+.thirdcontent{
+    font-family:verdana;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.thirdbox{
+    height:19rem;
+    width: 45rem;
+}
+
+.text3{
+    font-size:1.3rem;
+    line-height:1.5rem;
+    padding-left: 4.3rem;
+    font-family: verdana;
+    padding-top:1.7rem;
+}
+
+.head3{
+    padding-top: 1.7rem;
+    font-family: verdana;
+    padding-left: 4.3rem;
+    font-size:2.35rem;
+    width:35rem;
+    line-height: 2.8rem;
+}
+
+.boxes{
+    margin-top:1rem;
+    margin-left:5rem;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover, .box10:hover, .box11:hover, .box12:hover{
+    cursor:pointer;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,1) ;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8,.box9, .box10, .box11, .box12{
+    height: 8rem;
+    width:12rem;
+    margin-right: 1rem;
+    background-color:red;
+    margin-bottom:0.5rem;
+}
+
+.box1{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg);
+    background-size: cover;
+}
+
+.box2{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg);
+    background-size: cover;
+}
+
+.box3{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_PLAYER.png);
+    background-size: cover;
+}
+
+.box4{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg);
+    background-size: cover;
+}
+
+.box5{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg);
+    background-size: cover;
+}
+
+.box6{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal.png);
+    background-size: cover;
+}
+.box7{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Anime.jpg);
+    background-size: cover;
+}
+
+.box8{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg);
+    background-size: cover;
+}
+
+.box9{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Mubi-426X2946_V1.jpg);
+    background-size: cover;
+}
+
+.box10{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Vrott.png);
+    background-size: cover;
+}
+
+.box11{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Stingray.png);
+    background-size: cover;
+}
+
+.box12{
+    background-image:url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Docubay-426X2947_V1.jpg);
+    background-size: cover;
+}
+
+.lastone{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    height: 29rem;
+
+    background-size: cover;
+
+}
+.lastbutton{
+    height: 2.8rem;
+    width: 15.1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#0f79af;
+    font-size: 1rem;
+    line-height: 2.8rem;
+    color: white;
+    font-weight:bold;
+    margin-left: 41.5rem;
+    margin-top: 2.7rem;
+    border-radius: 0.3rem;
+}
+
+.lasttext{
+    color: white;
+    font-size:1rem;
+    line-height:1.5rem;
+    margin-right: 2.5rem;
+    margin-left: 41.5rem;
+    font-family: verdana;
+}
+
+.lastheading{
+    padding-top: 1.2rem;
+    font-family: verdana;
+    color: white;
+
+    margin-left: 41.5rem;
+    font-size:2.35rem;
+    line-height: 6rem;
+}
+
+.footer{
+    height: 4.2rem;
+    background-color: #222222;
+    padding: 1.5rem;
+    
+}
+
+.footertext {
+    color: #0f79af;
+    font-family: verdana;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size:0.8rem;
+}
+
+.seclogo{
+    height: 1rem;
+    width:3rem;
+    margin-left:38rem;
+}
+
+.footeranchors{
+    display: flex;
+    padding-left: 30rem;
+    margin-top:1rem;
+}
+
+.cr{
+    margin-top: 0.6rem;
+    font-family: verdana;
+    margin-left: 30.5rem;
+    font-size:0.8rem;
+    color: #d3d3d3;
+}
+
+.signin:hover, .rentbutton:hover, .lastbutton:hover{
+        cursor:pointer;
+        background-color: #2b85b1;
+}
+
+/* @media screen and (min-width: 1260px){
+    .navbar{
+            display:flex;
+            align-items:center;
+            justify-content:space-evenly;
+        }
+        
+        .homebar{
+            margin-left: 1px;
+        }
+        .homebar a{
+            display:flex;
+            flex-wrap: nowrap; 
+            align-items:center;
+            justify-content:center;
+            margin-left:auto;
+            margin-right:autos;
+        }
+
+        .homebar div{
+            display:flex;
+            flex-wrap: nowrap; 
+            align-items:center;
+            justify-content:center;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        .logo{
+            margin-left:3rem;
+        }
+
+        .user{
+            margin-right: auto;
+        }
+}
+*/
+
+ @media all and (min-width: 890px) and (max-width:1280px){
+    .homebar{
+        margin-right:2px;
+        }
+    
+    .homebar a{
+        display:flex;
+        flex-wrap: nowrap; 
+        align-items:center;
+        justify-content:center;
+        margin-left:0;
+        margin-right:auto;
+    }
+
+    .homebar div{
+        display:flex;
+        flex-wrap: nowrap; 
+        align-items:center;
+        justify-content:center;
+        margin-left:0;
+        margin-right:auto;
+    }
+    
+    .magnifyingglass{
+        margin-left: 3px;
+    }
+
+    .logo{
+        margin-left: 2px;
+    }
+
+    .user i{
+        right: .0px;
+    }
+
+    .thirdnavigation{
+        display:flex;
+        flex-wrap: nowrap;
+        margin-right: 0px;
+    }
+
+    .boxes{
+        margin-top:1rem;
+        margin-left:1rem;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .thirdcontent{
+        display:block;
+    }
+
+    .boxes{
+        margin-top:1px;
+        margin-left:2px;
+    }
+
+    .lastone{
+        height:40rem;
+        background-size: cover;
+    }
+
+    .footer{
+        
+        height:5rem;
+    }
+
+    .lastheading{
+        flex-wrap:nowrap;
+        width:100%;
+        margin-left:0.5rem;
+    }
+
+    .lasttext{
+        flex-wrap:nowrap;
+        width:100%;
+        margin-left:0.5rem;
+    }
+    .lastbutton{
+        flex-wrap:nowrap;
+        width:15.1rem;
+        margin-left:30%;
+    }
+    .seclogo{
+        width:100%;
+        margin-left:40%;
+    }
+    .footeranchors{
+        width:50%;
+        padding-left:11rem;
+        margin-left:0rem;
+    }
+    .cr{
+        width:50%;
+        padding-left:11rem;
+        margin-left:0rem;
+    }
+    }
+
+
+@media all and (min-width:380px) and (max-width:890px){
+    .logo{
+        margin-left:2rem;
+    }
+
+    .homebar{
+        display:none;
+    }
+
+    .firstcontent{
+        background-size:cover;
+    }
+
+    .magright1, .magright2{
+        display:none;
+    }
+
+    .magnifyingglass{
+        margin-left:4rem;
+        padding-top: 0.3rem;
+    }
+
+    .dropdown2{
+        padding-top:0rem;
+        padding-left:0.5rem;
+    }
+    
+    .thirdcontent{
+        display:block;
+    }
+
+    .thirdbox{
+        width:90%;
+        display:flex;
+        flex-wrap:wrap;
+        margin-left:0rem;
+        padding-left:0rem;
+    }
+
+    .boxes{
+        display:flex;
+        width:100%;
+        flex-wrap: wrap;
+        margin-left:0.5rem;
+        margin-top:10rem;
+        justify-content:center;
+    }
+    .lastone{
+        height:40rem;
+        background-size: cover;
+    }
+
+    .footer{
+        
+        height:5rem;
+    }
+
+    .lastheading{
+        flex-wrap:nowrap;
+        width:100%;
+        margin-left:0.5rem;
+    }
+
+    .lasttext{
+        flex-wrap:nowrap;
+        width:100%;
+        margin-left:0.5rem;
+        justify-content:center;
+    }
+    .lastbutton{
+        flex-wrap:nowrap;
+        width:15.1rem;
+        margin-left:25%;
+        justify-content:center;
+    }
+    .seclogo{
+        width:100%;
+        margin-left:30%;
+        justify-content:center;
+    }
+    .footeranchors{
+        width:90%;
+        padding-left:4.5rem;
+        margin-left:0rem;
+        justify-content:center;
+    }
+    .cr{
+        width:90%;
+        padding-left:4.5rem;
+        margin-left:0rem;
+        justify-content:center;
+    }
+}
+
+@media all and (max-width:380px){
+    .logo{
+        margin-left:2rem;
+    }
+
+    .homebar{
+        display:none;
+    }
+
+    .firstcontent{
+        background-size:cover;
+    }
+
+    .magright1, .magright2{
+        display:none;
+    }
+
+    .magnifyingglass{
+        margin-left: 5rem;
+        padding-top: 0.3rem;
+    }
+
+    .user{
+        margin-left: 2rem;
+        margin-right:0.5rem;
+    }
+
+    .dropdown2{
+        padding-top:0rem;
+        padding-left:0.5rem;
+    }
+    
+    .thirdcontent{
+        display:block;
+    }
+
+    .thirdbox{
+        width:90%;
+        display:flex;
+        flex-wrap:wrap;
+        margin-left:0rem;
+        padding-left:0rem;
+    }
+
+    .boxes{
+        display:flex;
+        width:100%;
+        flex-wrap: wrap;
+        margin-left:0.5rem;
+        margin-top:10rem;
+        justify-content:center;
+    }
+    .lastone{
+        height:40rem;
+        background-size: cover;
+    }
+
+    .footer{
+        
+        height:5rem;
+    }
+
+    .lastheading{
+        flex-wrap:nowrap;
+        width:100%;
+        margin-left:0.5rem;
+    }
+
+    .lasttext{
+        flex-wrap:nowrap;
+        width:100%;
+        margin-left:0.5rem;
+        justify-content:center;
+    }
+    .lastbutton{
+        flex-wrap:nowrap;
+        width:15.1rem;
+        margin-left:20%;
+        justify-content:center;
+    }
+    .seclogo{
+        width:100%;
+        margin-left:20%;
+        justify-content:center;
+    }
+    .footeranchors{
+        width:90%;
+        padding-left:1rem;
+        margin-left:0rem;
+        justify-content:center;
+    }
+    .cr{
+        width:90%;
+        padding-left:1rem;
+        margin-left:0rem;
+        justify-content:center;
+    }
+}
