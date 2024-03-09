@@ -4,6 +4,10 @@
     font-size: 18px;
 }
 
+.button{
+    border:none;
+}
+
 .navbar{
     height: 2.8rem;
     background-color: black;
